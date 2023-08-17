@@ -7,7 +7,7 @@ const bodyParser=require('body-parser');
 const empleadosRutas=require('../src/routes/empleado');
 const port=process.env.PORT || 3000;
 mongoose.set('strictQuery', false);
-const database='mongodb+srv://josue_hc:lj4uy15HYbtNs6RN@cluster0.zqufc4z.mongodb.net/empleados?retryWrites=true&w=majority';
+//link a mongodb
 //desarrollo
 //base de datos
 mongoose.connect(database)
